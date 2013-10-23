@@ -1,0 +1,31 @@
+<div class="full_page">
+    <h1>Contact</h1>
+	<div class="col_left_main contact_page">
+    	<!--Login Starts-->
+        <!--Form Starts-->
+        <div class="block">
+            <form id="contact-us" action="leisure_contact.php" method="post" />
+                <h3>Leave a message</h3>
+                
+                <ul id="contact_form">
+                    <li>
+                        <input type="text" name="contactName" id="contactName" value="" class="txt requiredField" placeholder="Name:" />
+                                            </li>
+                    <li>
+                        <input type="text" name="email" id="email" value="" class="txt requiredField email" placeholder="Email:" />
+                                            </li>
+                    <li>
+                        <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"></textarea>
+                                            </li>
+                    <li>
+                        <button name="submit" type="submit" class="subbutton brown_btn">Send us Mail!</button>
+                        <input type="hidden" name="submitted" id="submitted" value="true" />
+                    </li>
+                </ul>
+            </form>
+            <!--Form Ends-->
+        </div>
+        <!--Login Ends-->
+    </div>
+    <%- partial('partial/right_nav')%>
+</div>
