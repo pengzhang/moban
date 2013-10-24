@@ -260,9 +260,10 @@ ul.breadcrumb li a{ color:#bdbdbd; text-decoration:none;}
 .contact_page address{ line-height:25px; padding-bottom:15px; font-size:14px; border-bottom:solid 1px #E5E3E1;}
 .contact_page h3{ font-size:17px; padding-bottom:10px;}
 .contact_page #contact_form li { padding:8px 0px;}
-.contact_page #contact_form li input[type="text"], .contact_page #contact_form li textarea{border:1px solid #D7D7D7; padding:4px; width:350px;}
+.contact_page #contact_form li input[type="text"],input[type="password"], .contact_page #contact_form li textarea{border:1px solid #D7D7D7; padding:4px; width:350px;}
 .contact_page > iframe{ border:solid 1px #D7D7D7; padding:2px;}
 .contact_page address, .contact_page .block{ width:390px; padding-top:15px;}
+.contact_page .block_login{ width:390px; padding-top:15px;margin: auto;}
 
 #contact_form span.error{ display:block; font-size:12px; padding:5px 0px 5px 20px; color:#d84631;background:url(../images/alert.png) no-repeat left center; }
 p.tick{ padding:10px 0px 10px 20px;background:url(../images/tick.png) no-repeat left center; margin-bottom:10px;}

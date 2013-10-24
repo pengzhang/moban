@@ -1,0 +1,37 @@
+<div class="full_page">
+    <h1>欢迎</h1>
+	<div class="col_left_main contact_page ">
+    	<!--Login Starts-->
+        <!--Form Starts-->
+        <div class="block_login">
+            <form id="contact-us" action="" method="post" />
+                <h3>注册信息</h3>
+                
+                <ul id="contact_form">
+                    <li>
+                        <input type="text" name="username" id="username" value="" class="txt requiredField" placeholder="用户名:" />
+                    </li>
+                    <li>
+                        <input type="password" name="password" id="password" value="" class="txt requiredField" placeholder="密码:" />
+                    </li>
+                    <li>
+                        <input type="password" name="re-pwd" id="re-pwd" value="" class="txt requiredField" placeholder="重复密码:" />
+                    </li>
+                    <li>
+                        <input type="text" name="email" id="email" value="" class="txt requiredField email" placeholder="电子邮箱:" />
+                    </li>
+                    <li>
+                        <input type="text" name="mobile" id="mobile" value="" class="txt requiredField" placeholder="手机号码:" />
+                    </li>
+                    <li>
+                        <button name="submit" type="submit" class="subbutton brown_btn">注册</button>
+                        <input type="hidden" name="submitted" id="submitted" value="true" />
+                    </li>
+                </ul>
+            </form>
+            <!--Form Ends-->
+        </div>
+        <!--Login Ends-->
+    </div>
+    <%- partial('partial/nav_right')%>
+</div>

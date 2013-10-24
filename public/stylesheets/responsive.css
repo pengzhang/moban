@@ -150,7 +150,7 @@ footer address img{ float:none;}
 
 /*Contact*/
 .contact_page iframe{ width:99%; height:200px;}
-.contact_page address, .contact_page .block{ width:auto;}
+.contact_page address, .contact_page .block{ width:auto; }
 .contact_page #contact_form li input[type="text"], .contact_page #contact_form li textarea{ width:300px;}
 
 

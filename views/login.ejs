@@ -1,24 +1,21 @@
 <div class="full_page">
-    <h1>Contact</h1>
-	<div class="col_left_main contact_page">
+    <h1>欢迎</h1>
+	<div class="col_left_main contact_page ">
     	<!--Login Starts-->
         <!--Form Starts-->
-        <div class="block">
-            <form id="contact-us" action="leisure_contact.php" method="post" />
-                <h3>Leave a message</h3>
+        <div class="block_login">
+            <form id="contact-us" action="" method="post" />
+                <h3>登陆</h3>
                 
                 <ul id="contact_form">
                     <li>
-                        <input type="text" name="contactName" id="contactName" value="" class="txt requiredField" placeholder="Name:" />
-                                            </li>
+                        <input type="text" name="username" id="username" value="" class="txt requiredField" placeholder="用户名" />
+                    </li>
                     <li>
-                        <input type="text" name="email" id="email" value="" class="txt requiredField email" placeholder="Email:" />
-                                            </li>
+                        <input type="password" name="password" id="password" value="" class="txt requiredField" placeholder="密码:" />
+                    </li>
                     <li>
-                        <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"></textarea>
-                                            </li>
-                    <li>
-                        <button name="submit" type="submit" class="subbutton brown_btn">Send us Mail!</button>
+                        <button name="submit" type="submit" class="subbutton brown_btn">登陆</button>
                         <input type="hidden" name="submitted" id="submitted" value="true" />
                     </li>
                 </ul>
@@ -27,5 +24,5 @@
         </div>
         <!--Login Ends-->
     </div>
-    <%- partial('partial/right_nav')%>
+    <%- partial('partial/nav_right')%>
 </div>

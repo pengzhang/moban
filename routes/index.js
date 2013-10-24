@@ -45,3 +45,9 @@ exports.login = function(req, res){
       layout: 'layout' });
 };
 
+exports.register = function(req, res){
+  res.render('register', 
+    { title: '注册',
+      layout: 'layout' });
+};
+

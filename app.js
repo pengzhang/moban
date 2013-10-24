@@ -42,6 +42,7 @@ app.get('/checkout', routes.checkout);
 app.get('/cart', routes.cart);
 app.get('/contact', routes.contact);
 app.get('/login', routes.login);
+app.get('/register', routes.register);
 app.get('/users', user.list);
 
 params.extend(app);
