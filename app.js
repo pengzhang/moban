@@ -37,12 +37,13 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/product', routes.product);
-app.get('/product_detail', routes.product_detail);
+app.get('/product-detail', routes.product_detail);
 app.get('/checkout', routes.checkout);
 app.get('/cart', routes.cart);
 app.get('/contact', routes.contact);
 app.get('/login', routes.login);
 app.get('/register', routes.register);
+app.get('/my-account', routes.myaccount);
 app.get('/users', user.list);
 
 params.extend(app);

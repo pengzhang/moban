@@ -51,3 +51,9 @@ exports.register = function(req, res){
       layout: 'layout' });
 };
 
+exports.myaccount = function(req, res){
+  res.render('myaccount', 
+    { title: '注册',
+      layout: 'layout' });
+};
+
